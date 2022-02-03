@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital White Board</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hamburger -->
+    <div class="options-container">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- Tools Images -->
+    <div class="tools-container scale-tools">
+        <img class="pencil" src="Icons/Pencil.svg" alt="Pencil">
+        <img class="eraser" src="Icons/Eraser.svg" alt="Eraser" >
+        <img class="download" src="Icons/Download.svg" alt="Download">
+        <img class="upload" src="Icons/Upload.svg" alt="Upload">
+        <img class="sticky  " src="Icons/StickyNote.svg" alt="Sticky Note">
+        <img class="redo" src="Icons/Redo.svg" alt="Redo">
+        <img class="undo" src="Icons/Undo.svg" alt="Undo">
+    </div>
+
+    <!-- Pencil Width and Color adjusters -->
+    <div class="pencil-tool-adjuster">
+        <div class="pencil-width-adjuster">
+            <input class="pencil-width" type="range" name="" min="2" max="10" value="3">
+        </div>
+        <div class="pencil-color-adjuster">
+            <div class="black pencil-color"></div>
+            <div class="red pencil-color"></div>
+            <div class="blue pencil-color"></div>
+        </div>
+    </div>
+
+    <div class="eraser-tool-adjuster">
+        <input class="eraser-width" type="range" name="" min="2" max="10" value="3">
+    </div>
+
+    <!-- Sticky Notes -->
+    <!-- <div class="sticky-container">
+        <div class="header-container">
+            <div class="minimize"></div>
+            <div class="remove"></div>
+        </div>
+        <div class="note-container">
+            <textarea></textarea>
+        </div>
+    </div> -->
+
+    <!-- Canvas -->
+    <canvas></canvas>
+
+    <script src="tools.js"></script>
+    <script src="canvas.js"></script>
+</body>
+</html>

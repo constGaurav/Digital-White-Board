@@ -1,0 +1,12 @@
+
+#1 Learn about Drag and Drop Feature
+
+#2 Learn about How to Open File Explorer
+
+#3 Basics Of DOM
+
+#4 What is CANVAS and How to use? - https://www.youtube.com/watch?v=M3g0OlvIPL4
+
+#6 How to download and Undo and Redo
+
+#7 
